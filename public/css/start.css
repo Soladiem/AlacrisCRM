@@ -118,7 +118,6 @@ body ::-moz-placeholder {
   border-radius: 3px;
   padding: 10px 15px;
   margin: 0 auto 10px auto;
-  text-align: center;
   font-size: 18px;
   color: #fff;
   -webkit-transition-duration: 0.25s;
@@ -130,13 +129,7 @@ body ::-moz-placeholder {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-.wrapper__center form .form-input:focus {
-  background-color: #fff;
-  width: 300px;
-  color: #53e3a6;
-}
-
-.wrapper__center form button {
+.wrapper__center form button[type=submit] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -153,7 +146,7 @@ body ::-moz-placeholder {
   transition-duration: 0.25s;
 }
 
-.wrapper__center form button:hover {
+.wrapper__center form button[type=submit]:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
