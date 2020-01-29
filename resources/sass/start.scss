@@ -119,12 +119,11 @@ body ::-moz-placeholder {
             appearance: none;
             outline: 0;
             border: 1px solid $bg-hover;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: $bg-bubbles-li6;
             width: $width-field;
             border-radius: 3px;
             padding: 10px 15px;
             margin: 0 auto 10px auto;
-            text-align: center;
             font-size: 18px;
             color: $color-text;
             -webkit-transition-duration: 0.25s;
@@ -134,15 +133,9 @@ body ::-moz-placeholder {
             &:hover {
                 background-color: $bg-hover;
             }
-
-            &:focus {
-                background-color: $color-text;
-                width: 300px;
-                color: $bg-wc-to;
-            }
         }
 
-        button {
+        button[type="submit"] {
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
