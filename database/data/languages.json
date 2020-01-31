@@ -1554,7 +1554,7 @@
         "name_native": "English",
         "text_direction": "ltr",
         "date_format": "M/d/yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "en",
@@ -1797,7 +1797,7 @@
         "name_native": "Français",
         "text_direction": "ltr",
         "date_format": "dd/MM/yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "fr",
@@ -2175,7 +2175,7 @@
         "name_native": "Deutsch",
         "text_direction": "ltr",
         "date_format": "dd.MM.yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "de",
@@ -2400,7 +2400,7 @@
         "name_native": "Italiano",
         "text_direction": "ltr",
         "date_format": "dd/MM/yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "it",
@@ -3129,7 +3129,7 @@
         "name_native": "Русский",
         "text_direction": "ltr",
         "date_format": "dd.MM.yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "ru",
@@ -3606,7 +3606,7 @@
         "name_native": "Español",
         "text_direction": "ltr",
         "date_format": "dd/MM/yyyy",
-        "status": 0
+        "status": 1
     },
     {
         "iso_code": "es",
