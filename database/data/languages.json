@@ -1,0 +1,3953 @@
+[
+    {
+        "iso_code": "aa",
+        "code": "aa-DJ",
+        "name": "Afar (Djibouti)",
+        "name_native": "Afar",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "aa",
+        "code": "aa-ER",
+        "name": "Afar (Eritrea)",
+        "name_native": "Afar",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "aa",
+        "code": "aa-ET",
+        "name": "Afar (Ethiopia)",
+        "name_native": "Afar",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "af",
+        "code": "af-NA",
+        "name": "Afrikaans (Namibia)",
+        "name_native": "Afrikaans",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "af",
+        "code": "af-ZA",
+        "name": "Afrikaans (South Africa)",
+        "name_native": "Afrikaans",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ak",
+        "code": "ak-GH",
+        "name": "Akan (Ghana)",
+        "name_native": "Tɕɥi",
+        "text_direction": "ltr",
+        "date_format": "yyyy/mm/dd",
+        "status": 0
+    },
+    {
+        "iso_code": "sq",
+        "code": "sq-AL",
+        "name": "Albanian (Albania)",
+        "name_native": "Shqip",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sq",
+        "code": "sq-XK",
+        "name": "Albanian (Kosovo)",
+        "name_native": "Shqip",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sq",
+        "code": "sq-MK",
+        "name": "Albanian (Macedonia)",
+        "name_native": "Shqip",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "am",
+        "code": "am-ET",
+        "name": "Amharic (Ethiopia)",
+        "name_native": "አማርኛ",
+        "text_direction": "ltr",
+        "date_format": "dd/mm/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-DZ",
+        "name": "Arabic (Algeria)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-BH",
+        "name": "Arabic (Bahrain)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-TD",
+        "name": "Arabic (Chad)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-KM",
+        "name": "Arabic (Comoros)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-DJ",
+        "name": "Arabic (Djibouti)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-EG",
+        "name": "Arabic (Egypt)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-ER",
+        "name": "Arabic (Eritrea)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-IQ",
+        "name": "Arabic (Iraq)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-IL",
+        "name": "Arabic (Israel)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-JO",
+        "name": "Arabic (Jordan)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-KW",
+        "name": "Arabic (Kuwait)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-LB",
+        "name": "Arabic (Lebanon)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-LY",
+        "name": "Arabic (Libya)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-MR",
+        "name": "Arabic (Mauritania)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-MA",
+        "name": "Arabic (Morocco)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-OM",
+        "name": "Arabic (Oman)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-PS",
+        "name": "Arabic (Palestinian Authority)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-QA",
+        "name": "Arabic (Qatar)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-SA",
+        "name": "Arabic (Saudi Arabia)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-SO",
+        "name": "Arabic (Somalia)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-SS",
+        "name": "Arabic (South Sudan)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-SD",
+        "name": "Arabic (Sudan)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-SY",
+        "name": "Arabic (Syria)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-TN",
+        "name": "Arabic (Tunisia)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "\tdd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-AE",
+        "name": "Arabic (United Arab Emirates)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ar",
+        "code": "ar-YE",
+        "name": "Arabic (Yemen)",
+        "name_native": "العربية",
+        "text_direction": "rtl",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "hy",
+        "code": "hy-AM",
+        "name": "Armenian (Armenia)",
+        "name_native": "Հայերեն",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "as",
+        "code": "as-IN",
+        "name": "Assamese (India)",
+        "name_native": "অসমীয়া",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "az",
+        "code": "az-Cyrl-AZ",
+        "name": "Azerbaijani (Cyrillic, Azerbaijan)",
+        "name_native": "Azərbaycan dili",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "az",
+        "code": "az-Latn-AZ",
+        "name": "Azerbaijani (Latin, Azerbaijan)",
+        "name_native": "Azərbaycan dili",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "bn",
+        "code": "bn-BD",
+        "name": "Bengali (Bangladesh)",
+        "name_native": "বাংলা",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "bn",
+        "code": "bn-IN",
+        "name": "Bengali (India)",
+        "name_native": "বাংলা",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ba",
+        "code": "ba-RU",
+        "name": "Bashkir (Russia)",
+        "name_native": "Башҡорт",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yy",
+        "status": 0
+    },
+    {
+        "iso_code": "eu",
+        "code": "eu-ES",
+        "name": "Basque (Basque)",
+        "name_native": "Euskara",
+        "text_direction": "ltr",
+        "date_format": "yyyy/MM/dd",
+        "status": 0
+    },
+    {
+        "iso_code": "be",
+        "code": "be-BY",
+        "name": "Belarusian (Belarus)",
+        "name_native": "Беларуская",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yy",
+        "status": 0
+    },
+    {
+        "iso_code": "bs",
+        "code": "bs-Cyrl-BA",
+        "name": "Bosnian (Cyrillic, Bosnia and Herzegovina)",
+        "name_native": "Bosančica",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "bs",
+        "code": "bs-Latn-BA",
+        "name": "Bosnian (Latin, Bosnia and Herzegovina)",
+        "name_native": "Bosanski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "br",
+        "code": "br-FR",
+        "name": "Breton (France)",
+        "name_native": "Brezhoneg",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "bg",
+        "code": "bg-BG",
+        "name": "Bulgarian (Bulgaria)",
+        "name_native": "Български",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "my",
+        "code": "my-MM",
+        "name": "Burmese (Myanmar)",
+        "name_native": "ဗမာစကာ",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ca",
+        "code": "ca-AD",
+        "name": "Catalan (Andorra)",
+        "name_native": "Català",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ca",
+        "code": "ca-ES",
+        "name": "Catalan (Spain)",
+        "name_native": "Català",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ca",
+        "code": "ca-FR",
+        "name": "Catalan (France)",
+        "name_native": "Català",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ca",
+        "code": "ca-IT",
+        "name": "Catalan (Italy)",
+        "name_native": "Català",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ku",
+        "code": "ku-Arab-IQ",
+        "name": "Central Kurdish (Iraq)",
+        "name_native": "Kurdî",
+        "text_direction": "ltr",
+        "date_format": "yyyy/MM/dd",
+        "status": 0
+    },
+    {
+        "iso_code": "ce",
+        "code": "ce-RU",
+        "name": "Chechen (Russia)",
+        "name_native": "Нохчийн",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "zh",
+        "code": "zh-CN",
+        "name": "Chinese (Simplified, PRC)",
+        "name_native": "中文",
+        "text_direction": "ltr",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "zh",
+        "code": "zh-SG",
+        "name": "Chinese (Simplified, Singapore)",
+        "name_native": "中文",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "zh",
+        "code": "zh-HK",
+        "name": "Chinese (Traditional, Hong Kong S.A.R.)",
+        "name_native": "中文",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "zh",
+        "code": "zh-MO",
+        "name": "Chinese (Traditional, Macao S.A.R.)",
+        "name_native": "中文",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "zh",
+        "code": "zh-TW",
+        "name": "Chinese (Traditional, Taiwan)",
+        "name_native": "中文",
+        "text_direction": "ltr",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "co",
+        "code": "co-FR",
+        "name": "Corsican (France)",
+        "name_native": "Corsu",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "hr",
+        "code": "hr-HR",
+        "name": "Croatian (Croatia)",
+        "name_native": "Hrvatski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "hr",
+        "code": "hr-BA",
+        "name": "Croatian (Latin, Bosnia and Herzegovina)",
+        "name_native": "Hrvatski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "cs",
+        "code": "cs-CZ",
+        "name": "Czech (Czech Republic)",
+        "name_native": "Česky",
+        "text_direction": "ltr",
+        "date_format": "d. M. yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "da",
+        "code": "da-DK",
+        "name": "Danish (Denmark)",
+        "name_native": "Dansk",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "da",
+        "code": "da-GL",
+        "name": "Danish (Greenland)",
+        "name_native": "Dansk",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "dv",
+        "code": "dv-MV",
+        "name": "Divehi (Maldives)",
+        "name_native": "ދިވެހިބަސް",
+        "text_direction": "rtl",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-AW",
+        "name": "Dutch (Aruba)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-BE",
+        "name": "Dutch (Belgium)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-BQ",
+        "name": "Dutch (Bonaire, Sint Eustatius and Saba)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-CW",
+        "name": "Dutch (Curaçao)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-NL",
+        "name": "Dutch (Netherlands)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "d-M-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-SX",
+        "name": "Dutch (Sint Maarten)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nl",
+        "code": "nl-SR",
+        "name": "Dutch (Suriname)",
+        "name_native": "Dutch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "dz",
+        "code": "dz-BT",
+        "name": "Dzongkha (Bhutan)",
+        "name_native": "རྫོང་ཁ་",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-AS",
+        "name": "English (American Samoa)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-AI",
+        "name": "English (Anguilla)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-AG",
+        "name": "English (Antigua and Barbuda)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-AU",
+        "name": "English (Australia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-AT",
+        "name": "English (Austria)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BS",
+        "name": "English (Bahamas)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BB",
+        "name": "English (Barbados)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BE",
+        "name": "English (Belgium)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BZ",
+        "name": "English (Belize)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BM",
+        "name": "English (Bermuda)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BW",
+        "name": "English (Botswana)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-IO",
+        "name": "English (British Indian Ocean Territory)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-VG",
+        "name": "English (British Virgin Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-BI",
+        "name": "English (Burundi)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CM",
+        "name": "English (Cameroon)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CA",
+        "name": "English (Canada)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-KY",
+        "name": "English (Cayman Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CX",
+        "name": "English (Christmas Island)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CC",
+        "name": "English (Cocos [Keeling] Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CK",
+        "name": "English (Cook Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CY",
+        "name": "English (Cyprus)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-DK",
+        "name": "English (Denmark)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-DM",
+        "name": "English (Dominica)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-ER",
+        "name": "English (Eritrea)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-FK",
+        "name": "English (Falkland Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-FJ",
+        "name": "English (Fiji)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-FI",
+        "name": "English (Finland)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GM",
+        "name": "English (Gambia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-DE",
+        "name": "English (Germany)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GH",
+        "name": "English (Ghana)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GI",
+        "name": "English (Gibraltar)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GD",
+        "name": "English (Grenada)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GU",
+        "name": "English (Guam)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GG",
+        "name": "English (Guernsey)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GY",
+        "name": "English (Guyana)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-HK",
+        "name": "English (Hong Kong SAR)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "d/M/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-IN",
+        "name": "English (India)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-ID",
+        "name": "English (Indonesia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-IE",
+        "name": "English (Ireland)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-IM",
+        "name": "English (Isle of Man)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-IL",
+        "name": "English (Israel)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-JM",
+        "name": "English (Jamaica)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-JE",
+        "name": "English (Jersey)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-KE",
+        "name": "English (Kenya)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-KI",
+        "name": "English (Kiribati)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-LS",
+        "name": "English (Lesotho)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-LR",
+        "name": "English (Liberia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MO",
+        "name": "English (Macao SAR)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MG",
+        "name": "English (Madagascar)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MW",
+        "name": "English (Malawi)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MY",
+        "name": "English (Malaysia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MT",
+        "name": "English (Malta)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MH",
+        "name": "English (Marshall Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MU",
+        "name": "English (Mauritius)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-FM",
+        "name": "English (Micronesia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MS",
+        "name": "English (Montserrat)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NA",
+        "name": "English (Namibia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NR",
+        "name": "English (Nauru)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NL",
+        "name": "English (Netherlands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NZ",
+        "name": "English (New Zealand)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NG",
+        "name": "English (Nigeria)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NU",
+        "name": "English (Niue)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-NF",
+        "name": "English (Norfolk Island)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-MP",
+        "name": "English (Northern Mariana Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PK",
+        "name": "English (Pakistan)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PW",
+        "name": "English (Palau)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PG",
+        "name": "English (Papua New Guinea)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PN",
+        "name": "English (Pitcairn Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PR",
+        "name": "English (Puerto Rico)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-PH",
+        "name": "English (Philippines)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "M/d/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-RW",
+        "name": "English (Rwanda)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-KN",
+        "name": "English (Saint Kitts and Nevis)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-LC",
+        "name": "English (Saint Lucia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-VC",
+        "name": "English (Saint Vincent and the Grenadines)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-WS",
+        "name": "English (Samoa)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SC",
+        "name": "English (Seychelles)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SL",
+        "name": "English (Sierra Leone)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SG",
+        "name": "English (Singapore)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SX",
+        "name": "English (Sint Maarten)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SI",
+        "name": "English (Slovenia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SB",
+        "name": "English (Solomon Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-ZA",
+        "name": "English (South Africa)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SS",
+        "name": "English (South Sudan)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SH",
+        "name": "English (St Helena, Ascension, Tristan da Cunha)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SD",
+        "name": "English (Sudan)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SZ",
+        "name": "English (Swaziland)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-SE",
+        "name": "English (Sweden)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-CH",
+        "name": "English (Switzerland)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TZ",
+        "name": "English (Tanzania)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TK",
+        "name": "English (Tokelau)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TO",
+        "name": "English (Tonga)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TT",
+        "name": "English (Trinidad and Tobago)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TC",
+        "name": "English (Turks and Caicos Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "English",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-TV",
+        "name": "English (Tuvalu)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-UG",
+        "name": "English (Uganda)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-GB",
+        "name": "English (United Kingdom)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-US",
+        "name": "English (United States)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "M/d/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-UM",
+        "name": "English (US Minor Outlying Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-VI",
+        "name": "English (US Virgin Islands)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-VU",
+        "name": "English (Vanuatu)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-ZM",
+        "name": "English (Zambia)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "en",
+        "code": "en-ZW",
+        "name": "English (Zimbabwe)",
+        "name_native": "English",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "et",
+        "code": "et-EE",
+        "name": "Estonian (Estonia)",
+        "name_native": "Eesti",
+        "text_direction": "ltr",
+        "date_format": "d.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ee",
+        "code": "ee-GH",
+        "name": "Ewe (Ghana)",
+        "name_native": "Ɛʋɛ",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ee",
+        "code": "ee-TG",
+        "name": "Ewe (Togo)",
+        "name_native": "Ɛʋɛ",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fo",
+        "code": "fo-DK",
+        "name": "Faroese (Denmark)",
+        "name_native": "Føroyskt",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fo",
+        "code": "fo-FO",
+        "name": "Faroese (Faroe Islands)",
+        "name_native": "Føroyskt",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fi",
+        "code": "fi-FI",
+        "name": "Finnish (Finland)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-DZ",
+        "name": "French (Algeria)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-BE",
+        "name": "French (Belgium)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-BJ",
+        "name": "French (Benin)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-BF",
+        "name": "French (Burkina Faso)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-BI",
+        "name": "French (Burundi)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CM",
+        "name": "French (Cameroon)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CA",
+        "name": "French (Canada)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CF",
+        "name": "French (Central African Republic)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-TD",
+        "name": "French (Chad)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-KM",
+        "name": "French (Comoros)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CD",
+        "name": "French (Congo DRC)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CG",
+        "name": "French (Congo)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CI",
+        "name": "French (Côte d’Ivoire)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-DJ",
+        "name": "French (Djibouti)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-GQ",
+        "name": "French (Equatorial Guinea)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-FR",
+        "name": "French (France)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-GF",
+        "name": "French (French Guiana)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-PF",
+        "name": "French (French Polynesia)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-GA",
+        "name": "French (Gabon)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-GP",
+        "name": "French (Guadeloupe)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-GN",
+        "name": "French (Guinea)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-HT",
+        "name": "French (Haiti)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-LU",
+        "name": "French (Luxembourg)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MG",
+        "name": "French (Madagascar)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-ML",
+        "name": "French (Mali)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MQ",
+        "name": "French (Martinique) ",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MR",
+        "name": "French (Mauritania)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MU",
+        "name": "French (Mauritius)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-YT",
+        "name": "French (Mayotte)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MC",
+        "name": "French (Monaco)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MA",
+        "name": "French (Morocco)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-NC",
+        "name": "French (New Caledonia)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-NE",
+        "name": "French (Niger)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-RE",
+        "name": "French (Reunion)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-RW",
+        "name": "French (Rwanda)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-BL",
+        "name": "French (Saint Barthélemy)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-MF",
+        "name": "French (Saint Martin)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-PM",
+        "name": "French (Saint Pierre and Miquelon)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-SN",
+        "name": "French (Senegal)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-SC",
+        "name": "French (Seychelles)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-CH",
+        "name": "French (Switzerland)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-SY",
+        "name": "French (Syria)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-TG",
+        "name": "French (Togo)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-TN",
+        "name": "French (Tunisia)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-VU",
+        "name": "French (Vanuatu)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fr",
+        "code": "fr-WF",
+        "name": "French (Wallis and Futuna)",
+        "name_native": "Français",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "fy",
+        "code": "fy-NL",
+        "name": "Frisian (Netherlands)",
+        "name_native": "Frysk",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ff",
+        "code": "ff-CM",
+        "name": "Fulah (Cameroon)",
+        "name_native": "Fulah",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ff",
+        "code": "ff-GN",
+        "name": "Fulah (Guinea)",
+        "name_native": "Fulah",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ff",
+        "code": "ff-Latn-SN",
+        "name": "Fulah (Latin, Senegal)",
+        "name_native": "Fulah",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ff",
+        "code": "ff-MR",
+        "name": "Fulah (Mauritania)",
+        "name_native": "Fulah",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ff",
+        "code": "ff-NG",
+        "name": "Fulah (Nigeria)",
+        "name_native": "Fulah",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "gl",
+        "code": "gl-ES",
+        "name": "Galician (Galician)",
+        "name_native": "Galego",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "lg",
+        "code": "lg-UG",
+        "name": "Ganda (Uganda)",
+        "name_native": "Luganda",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ka",
+        "code": "ka-GE",
+        "name": "Georgian (Georgia)",
+        "name_native": "ქართული",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-AT",
+        "name": "German (Austria)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-BE",
+        "name": "German (Belgium)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-DE",
+        "name": "German (Germany)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-IT",
+        "name": "German (Italy)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-LI",
+        "name": "German (Liechtenstein)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-LU",
+        "name": "German (Luxembourg)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "de",
+        "code": "de-CH",
+        "name": "German (Switzerland)",
+        "name_native": "Deutsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "el",
+        "code": "el-CY",
+        "name": "Greek (Cyprus)",
+        "name_native": "Ελληνικά",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "el",
+        "code": "el-GR",
+        "name": "Greek (Greece)",
+        "name_native": "Ελληνικά",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "kl",
+        "code": "kl-GL",
+        "name": "Greenlandic (Greenland)",
+        "name_native": "Kalaallisut",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "gn",
+        "code": "gn-PY",
+        "name": "Guarani (Paraguay)",
+        "name_native": "ગુજરાતી",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "gu",
+        "code": "gu-IN",
+        "name": "Gujarati (India)",
+        "name_native": "ગુજરાતી",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ha",
+        "code": "ha-Latn-GH",
+        "name": "Hausa (Latin, Ghana)",
+        "name_native": "هَوُسَا",
+        "text_direction": "rtl",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ha",
+        "code": "ha-Latn-NE",
+        "name": "Hausa (Latin, Niger)",
+        "name_native": "هَوُسَا",
+        "text_direction": "rtl",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ha",
+        "code": "ha-Latn-NG",
+        "name": "Hausa (Latin, Nigeria)",
+        "name_native": "هَوُسَا",
+        "text_direction": "rtl",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "he",
+        "code": "he-IL",
+        "name": "Hebrew (Israel)",
+        "name_native": "עברית",
+        "text_direction": "rtl",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "hi",
+        "code": "hi-IN",
+        "name": "Hindi (India)",
+        "name_native": "हिन्दी",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "hu",
+        "code": "hu-HU",
+        "name": "Hungarian (Hungary)",
+        "name_native": "Magyar",
+        "text_direction": "ltr",
+        "date_format": "yyyy.MM.dd.",
+        "status": 0
+    },
+    {
+        "iso_code": "is",
+        "code": "is-IS",
+        "name": "Icelandic (Iceland)",
+        "name_native": "Íslenska",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ig",
+        "code": "ig-NG",
+        "name": "Igbo (Nigeria)",
+        "name_native": "Igbo",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "id",
+        "code": "id-ID",
+        "name": "Indonesian (Indonesia)",
+        "name_native": "Bahasa Indonesia",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ia",
+        "code": "ia-FR",
+        "name": "Interlingua (France)",
+        "name_native": "Interlingua",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "iu",
+        "code": "iu-Latn-CA",
+        "name": "Inuktitut (Latin, Canada)",
+        "name_native": "ᐃᓄᒃᑎᑐᑦ",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "iu",
+        "code": "iu-Cans-CA",
+        "name": "Inuktitut (Syllabics, Canada)",
+        "name_native": "ᐃᓄᒃᑎᑐᑦ",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ga",
+        "code": "ga-IE",
+        "name": "Irish (Ireland)",
+        "name_native": "Gaeilge",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "xh",
+        "code": "xh-ZA",
+        "name": "Xhosa (South Africa)",
+        "name_native": "isiXhosa",
+        "text_direction": "ltr",
+        "date_format": "yyyy/MM/dd",
+        "status": 0
+    },
+    {
+        "iso_code": "zu",
+        "code": "zu-ZA",
+        "name": "Zulu (South Africa)",
+        "name_native": "isiZulu",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "it",
+        "code": "it-IT",
+        "name": "Italian (Italy)",
+        "name_native": "Italiano",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "it",
+        "code": "it-SM",
+        "name": "Italian (San Marino)",
+        "name_native": "Italiano",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "it",
+        "code": "it-CH",
+        "name": "Italian (Switzerland)",
+        "name_native": "Italiano",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "it",
+        "code": "it-VA",
+        "name": "Italian (Vatican City)",
+        "name_native": "Italiano",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ja",
+        "code": "ja-JP",
+        "name": "Japanese (Japan)",
+        "name_native": "日本語",
+        "text_direction": "ltr",
+        "date_format": "yyyy/MM/dd",
+        "status": 0
+    },
+    {
+        "iso_code": "jv",
+        "code": "jv-Latn-ID",
+        "name": "Javanese (Indonesia)",
+        "name_native": "日本語",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "jv",
+        "code": "jv-Java-ID",
+        "name": "Javanese (Javanese, Indonesia)",
+        "name_native": "日本語",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "kn",
+        "code": "kn-IN",
+        "name": "Kannada (India)",
+        "name_native": "ಕನ್ನಡ",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "kr",
+        "code": "kr-NG",
+        "name": "Kanuri (Nigeria)",
+        "name_native": "Kànùrí",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ks",
+        "code": "ks-Deva-IN",
+        "name": "Kashmiri (Devanagari, India)",
+        "name_native": "کٲشُر لُکھ",
+        "text_direction": "rtl",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ks",
+        "code": "ks-Arab-IN",
+        "name": "Kashmiri (Perso-Arabic)",
+        "name_native": "کٲشُر لُکھ",
+        "text_direction": "rtl",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "kk",
+        "code": "kk-KZ",
+        "name": "Kazakh (Kazakhstan)",
+        "name_native": "Қазақша",
+        "text_direction": "ltr",
+        "date_format": "d-MMM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "km",
+        "code": "km-KH",
+        "name": "Khmer (Cambodia)",
+        "name_native": "ភាសាខ្មែរ",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ki",
+        "code": "ki-KE",
+        "name": "Kikuyu (Kenya)",
+        "name_native": "Gĩkũyũ",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "rw",
+        "code": "rw-RW",
+        "name": "Kinyarwanda (Rwanda)",
+        "name_native": "Ikinyarwanda",
+        "text_direction": "ltr",
+        "date_format": "d/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sw",
+        "code": "sw-CD",
+        "name": "Kiswahili (Congo DRC)",
+        "name_native": "Kiswahili",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sw",
+        "code": "sw-KE",
+        "name": "Kiswahili (Kenya)",
+        "name_native": "Kiswahili",
+        "text_direction": "ltr",
+        "date_format": "M/d/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sw",
+        "code": "sw-TZ",
+        "name": "Kiswahili (Tanzania)",
+        "name_native": "Kiswahili",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sw",
+        "code": "sw-UG",
+        "name": "Kiswahili (Uganda)",
+        "name_native": "Kiswahili",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ko",
+        "code": "ko-KR",
+        "name": "Korean (Korea)",
+        "name_native": "한국어",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "ko",
+        "code": "ko-KP",
+        "name": "Korean (North Korea)",
+        "name_native": "한국어",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "ky",
+        "code": "ky-KG",
+        "name": "Kyrgyz (Kyrgyzstan)",
+        "name_native": "Kırğız",
+        "text_direction": "ltr",
+        "date_format": "d-MMM yy",
+        "status": 0
+    },
+    {
+        "iso_code": "lo",
+        "code": "lo-LA",
+        "name": "Lao (Lao People's Democratic Republic)",
+        "name_native": "ລາວ",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "lv",
+        "code": "lv-LV",
+        "name": "Latvian (Latvia)",
+        "name_native": "Latviešu",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "ln",
+        "code": "ln-AO",
+        "name": "Lingala (Angola)",
+        "name_native": "Lingála",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ln",
+        "code": "ln-CF",
+        "name": "Lingala (Central African Republic)",
+        "name_native": "Lingála",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ln",
+        "code": "ln-CD",
+        "name": "Lingala (Congo DRC)",
+        "name_native": "Lingála",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ln",
+        "code": "ln-CG",
+        "name": "Lingala (Congo)",
+        "name_native": "Lingála",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "lt",
+        "code": "lt-LT",
+        "name": "Lithuanian (Lithuania)",
+        "name_native": "Lietuvių",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "lu",
+        "code": "lu-CD",
+        "name": "Luba-Katanga (Congo DRC)",
+        "name_native": "Kiluba",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "lb",
+        "code": "lb-LU",
+        "name": "Luxembourgish (Luxembourg)",
+        "name_native": "Lëtzebuergesch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yy",
+        "status": 0
+    },
+    {
+        "iso_code": "mk",
+        "code": "mk-MK",
+        "name": "Macedonian (Republic of North Macedonia)",
+        "name_native": "Македонски",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "mg",
+        "code": "mg-MG",
+        "name": "Malagasy (Madagascar)",
+        "name_native": "Malagasy",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ms",
+        "code": "ms-BN",
+        "name": "Malay (Brunei Darussalam)",
+        "name_native": "بهاس ملايو",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ms",
+        "code": "ms-SG",
+        "name": "Malay (Latin, Singapore)",
+        "name_native": "بهاس ملايو",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ms",
+        "code": "ms-MY",
+        "name": "Malay (Malaysia)",
+        "name_native": "بهاس ملايو",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ml",
+        "code": "ml-IN",
+        "name": "Malayalam (India)",
+        "name_native": "മലയാളം",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "mt",
+        "code": "mt-MT",
+        "name": "Maltese (Malta)",
+        "name_native": "Malti",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "gv",
+        "code": "gv-IM",
+        "name": "Manx (Isle of Man)",
+        "name_native": "Gailck",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "mi",
+        "code": "mi-NZ",
+        "name": "Maori (New Zealand)",
+        "name_native": "Māori",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "mr",
+        "code": "mr-IN",
+        "name": "Marathi (India)",
+        "name_native": "मराठी",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "mn",
+        "code": "mn-MN",
+        "name": "Mongolian (Cyrillic, Mongolia)",
+        "name_native": "ᠮᠣᠩᠭᠣᠯ",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "mn",
+        "code": "mn-Mong-MN",
+        "name": "Mongolian (Traditional Mongolian, Mongolia)",
+        "name_native": "ᠮᠣᠩᠭᠣᠯ",
+        "text_direction": "ltr",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "mn",
+        "code": "mn-Mong-CN",
+        "name": "Mongolian (Traditional Mongolian, China)",
+        "name_native": "ᠮᠣᠩᠭᠣᠯ",
+        "text_direction": "ltr",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "ne",
+        "code": "ne-IN",
+        "name": "Nepali (India)",
+        "name_native": "नेपाली",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "ne",
+        "code": "ne-NP",
+        "name": "Nepali (Nepal)",
+        "name_native": "नेपाली",
+        "text_direction": "ltr",
+        "date_format": "M/d/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "nd",
+        "code": "nd-ZW",
+        "name": "North Ndebele (Zimbabwe)",
+        "name_native": "isiNdebele",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nb",
+        "code": "nb-NO",
+        "name": "Norwegian, Bokmål (Norway)",
+        "name_native": "Bokmål",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "nb",
+        "code": "nb-SJ",
+        "name": "Norwegian, Bokmål (Svalbard and Jan Mayen)",
+        "name_native": "Bokmål",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "nn",
+        "code": "nn-NO",
+        "name": "Norwegian, Nynorsk (Norway)",
+        "name_native": "Nynorsk",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "oc",
+        "code": "oc-FR",
+        "name": "Occitan (France)",
+        "name_native": "Occitan",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "or",
+        "code": "or-IN",
+        "name": "Odia (India)",
+        "name_native": "ଓଡ଼ିଆ",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "om",
+        "code": "om-ET",
+        "name": "Oromo (Ethiopia)",
+        "name_native": "Oromoo",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "om",
+        "code": "om-KE",
+        "name": "Oromo (Kenya)",
+        "name_native": "Oromoo",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "os",
+        "code": "os-GE",
+        "name": "Ossetian (Cyrillic, Georgia)",
+        "name_native": "Irættæ",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "os",
+        "code": "os-RU",
+        "name": "Ossetian (Cyrillic, Russia)",
+        "name_native": "Иронау",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ps",
+        "code": "ps-AF",
+        "name": "Pashto (Afghanistan)",
+        "name_native": "پښتو",
+        "text_direction": "rtl",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "fa",
+        "code": "fa-IR",
+        "name": "Persian (Iran)",
+        "name_native": "فارسی",
+        "text_direction": "rtl",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "pl",
+        "code": "pl-PL",
+        "name": "Polish (Poland)",
+        "name_native": "Polski",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-AO",
+        "name": "Portuguese (Angola)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-BR",
+        "name": "Portuguese (Brazil)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-CV",
+        "name": "Portuguese (Cabo Verde)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-GQ",
+        "name": "Portuguese (Equatorial Guinea)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-GW",
+        "name": "Portuguese (Guinea-Bissau)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-LU",
+        "name": "Portuguese (Luxembourg)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-MO",
+        "name": "Portuguese (Macao SAR)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-MZ",
+        "name": "Portuguese (Mozambique)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-PT",
+        "name": "Portuguese (Portugal)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-ST",
+        "name": "Portuguese (São Tomé and Príncipe)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-CH",
+        "name": "Portuguese (Switzerland)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pt",
+        "code": "pt-TL",
+        "name": "Portuguese (Timor-Leste)",
+        "name_native": "Português",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "pa",
+        "code": "pa-IN",
+        "name": "Punjabi (India) ",
+        "name_native": "ਪੰਜਾਬੀ",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "pa",
+        "code": "pa-Arab-PK",
+        "name": "Punjabi (Islamic Republic of Pakistan)",
+        "name_native": "ਪੰਜਾਬੀ",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ro",
+        "code": "ro-MD",
+        "name": "Romanian (Moldova)",
+        "name_native": "Română",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ro",
+        "code": "ro-RO",
+        "name": "Romanian (Romania)",
+        "name_native": "Română",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "rm",
+        "code": "rm-CH",
+        "name": "Romansh (Switzerland)",
+        "name_native": "Rumantsch",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "rn",
+        "code": "rn-BI",
+        "name": "Rundi (Burundi)",
+        "name_native": "Kirundi",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-BY",
+        "name": "Russian (Belarus)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-KZ",
+        "name": "Russian (Kazakhstan)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-KG",
+        "name": "Russian (Kyrgyzstan)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-MD",
+        "name": "Russian (Moldova)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-RU",
+        "name": "Russian (Russia)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ru",
+        "code": "ru-UA",
+        "name": "Russian (Ukraine)",
+        "name_native": "Русский",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "se",
+        "code": "se-FI",
+        "name": "Sami, Northern (Finland)",
+        "name_native": "Davvisámegiella",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "se",
+        "code": "se-NO",
+        "name": "Sami, Northern (Norway)",
+        "name_native": "Davvisámegiella",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "se",
+        "code": "se-SE",
+        "name": "Sami, Northern (Sweden)",
+        "name_native": "Davvisámegiella",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "sg",
+        "code": "sg-CF",
+        "name": "Sango (Central African Republic)",
+        "name_native": "Sängö",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sa",
+        "code": "sa-IN",
+        "name": "Sanskrit (India)",
+        "name_native": "संस्कृतम्",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "gd",
+        "code": "gd-GB",
+        "name": "Scottish Gaelic (United Kingdom)",
+        "name_native": "Gàidhlig",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Cyrl-BA",
+        "name": "Serbian (Cyrillic, Bosnia and Herzegovina)",
+        "name_native": "Српски",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Cyrl-XK",
+        "name": "Serbian (Cyrillic, Kosovo)",
+        "name_native": "Српски",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Cyrl-ME",
+        "name": "Serbian (Cyrillic, Montenegro)",
+        "name_native": "Српски",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Cyrl-RS",
+        "name": "Serbian (Cyrillic, Serbia)",
+        "name_native": "Српски",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Latn-BA",
+        "name": "Serbian (Latin, Bosnia and Herzegovina)",
+        "name_native": "Srpski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Latn-XK",
+        "name": "Serbian (Latin, Kosovo)",
+        "name_native": "Srpski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Latn-ME",
+        "name": "Serbian (Latin, Montenegro)",
+        "name_native": "Srpski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "sr",
+        "code": "sr-Latn-RS",
+        "name": "Serbian (Latin, Serbia)",
+        "name_native": "Srpski",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy.",
+        "status": 0
+    },
+    {
+        "iso_code": "st",
+        "code": "st-LS",
+        "name": "Sesotho (Lesotho)",
+        "name_native": "Sesotho",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "tn",
+        "code": "tn-BW",
+        "name": "Setswana (Botswana)",
+        "name_native": "Setswana",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "tn",
+        "code": "tn-ZA",
+        "name": "Setswana (South Africa)",
+        "name_native": "Setswana",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "sn",
+        "code": "sn-Latn-ZW",
+        "name": "Shona (Latin, Zimbabwe)",
+        "name_native": "chiShona",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sd",
+        "code": "sd-Deva-IN",
+        "name": "Sindhi (Devanagari, India)",
+        "name_native": "सिनधि",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sd",
+        "code": "sd-Arab-PK",
+        "name": "Sindhi (Islamic Republic of Pakistan)",
+        "name_native": "सिनधि",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "si",
+        "code": "si-LK",
+        "name": "Sinhala (Sri Lanka)",
+        "name_native": "සිංහල",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "sk",
+        "code": "sk-SK",
+        "name": "Slovak (Slovakia)",
+        "name_native": "Slovenčina",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sl",
+        "code": "sl-SI",
+        "name": "Slovenian (Slovenia)",
+        "name_native": "Slovenščina",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "so",
+        "code": "so-DJ",
+        "name": "Somali (Djibouti)",
+        "name_native": "Soomaaliga",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "so",
+        "code": "so-ET",
+        "name": "Somali (Ethiopia)",
+        "name_native": "Soomaaliga",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "so",
+        "code": "so-KE",
+        "name": "Somali (Kenya)",
+        "name_native": "Soomaaliga",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "so",
+        "code": "so-SO",
+        "name": "Somali (Somalia)",
+        "name_native": "Soomaaliga",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "nr",
+        "code": "nr-ZA",
+        "name": "South Ndebele (South Africa)",
+        "name_native": "isiNdebele",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "st",
+        "code": "st-ZA",
+        "name": "Southern Sotho (South Africa)",
+        "name_native": "Sesotho",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-AR",
+        "name": "Spanish (Argentina)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-BZ",
+        "name": "Spanish (Belize)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-VE",
+        "name": "Spanish (Venezuela)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-BO",
+        "name": "Spanish (Bolivia)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-BR",
+        "name": "Spanish (Brazil)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-CL",
+        "name": "Spanish (Chile)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-CO",
+        "name": "Spanish (Colombia)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-CR",
+        "name": "Spanish (Costa Rica)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-CU",
+        "name": "Spanish (Cuba)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-DO",
+        "name": "Spanish (Dominican Republic)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "d/M/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-EC",
+        "name": "Spanish (Ecuador)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-SV",
+        "name": "Spanish (El Salvador)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-GQ",
+        "name": "Spanish (Equatorial Guinea)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-GT",
+        "name": "Spanish (Guatemala)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-HN",
+        "name": "Spanish (Honduras)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-MX",
+        "name": "Spanish (Mexico)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-NI",
+        "name": "Spanish (Nicaragua)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-PA",
+        "name": "Spanish (Panama)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-PY",
+        "name": "Spanish (Paraguay)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "d/M/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-PE",
+        "name": "Spanish (Peru)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-PH",
+        "name": "Spanish (Philippines)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-PR",
+        "name": "Spanish (Puerto Rico)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-ES",
+        "name": "Spanish (Spain)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-US",
+        "name": "Spanish (United States)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "M/d/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "es",
+        "code": "es-UY",
+        "name": "Spanish (Uruguay)",
+        "name_native": "Español",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ss",
+        "code": "ss-ZA",
+        "name": "Swati (South Africa)",
+        "name_native": "SiSwati",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ss",
+        "code": "ss-SZ",
+        "name": "Swati (Eswatini former Swaziland)",
+        "name_native": "SiSwati",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sv",
+        "code": "sv-AX",
+        "name": "Swedish (Åland Islands)",
+        "name_native": "Svenska",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "sv",
+        "code": "sv-FI",
+        "name": "Swedish (Finland)",
+        "name_native": "Svenska",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "sv",
+        "code": "sv-SE",
+        "name": "Swedish (Sweden)",
+        "name_native": "Svenska",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "tg",
+        "code": "tg-Cyrl-TJ",
+        "name": "Tajik (Cyrillic, Tajikistan)",
+        "name_native": "Тоҷикӣ",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ta",
+        "code": "ta-IN",
+        "name": "Tamil (India)",
+        "name_native": "தமிழ்",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ta",
+        "code": "ta-MY",
+        "name": "Tamil (Malaysia)",
+        "name_native": "தமிழ்",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ta",
+        "code": "ta-SG",
+        "name": "Tamil (Singapore)",
+        "name_native": "தமிழ்",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ta",
+        "code": "ta-LK",
+        "name": "Tamil (Sri Lanka)",
+        "name_native": "தமிழ்",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "tt",
+        "code": "tt-RU",
+        "name": "Tatar (Russia)",
+        "name_native": "Tatarça",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "te",
+        "code": "te-IN",
+        "name": "Telugu (India)",
+        "name_native": "తెలుగు",
+        "text_direction": "ltr",
+        "date_format": "dd-MM-yy",
+        "status": 0
+    },
+    {
+        "iso_code": "th",
+        "code": "th-TH",
+        "name": "Thai (Thailand)",
+        "name_native": "ไทย",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "bo",
+        "code": "bo-IN",
+        "name": "Tibetan (India)",
+        "name_native": "བོད་ཡིག",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "bo",
+        "code": "bo-CN",
+        "name": "Tibetan",
+        "name_native": "བོད་ཡིག",
+        "text_direction": "ltr",
+        "date_format": "yyyy/M/d",
+        "status": 0
+    },
+    {
+        "iso_code": "ti",
+        "code": "ti-ER",
+        "name": "Tigrinya (Eritrea)",
+        "name_native": "ትግርኛ",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ti",
+        "code": "ti-ET",
+        "name": "Tigrinya (Ethiopia)",
+        "name_native": "ትግርኛ",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "to",
+        "code": "to-TO",
+        "name": "Tongan (Tonga)",
+        "name_native": "Puleʻanga Fakatuʻi ʻo Tonga",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ts",
+        "code": "ts-ZA",
+        "name": "Tsonga (South Africa)",
+        "name_native": "Xitsonga",
+        "text_direction": "ltr",
+        "date_format": "yyyy-MM-dd",
+        "status": 0
+    },
+    {
+        "iso_code": "tr",
+        "code": "tr-CY",
+        "name": "Turkish (Cyprus)",
+        "name_native": "Türkçe",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "tr",
+        "code": "tr-TR",
+        "name": "Turkish (Turkey)",
+        "name_native": "Türkçe",
+        "text_direction": "ltr",
+        "date_format": "d.M.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "tk",
+        "code": "tk-TM",
+        "name": "Turkmen (Turkmenistan)",
+        "name_native": "تركمن",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yy 'ý.'",
+        "status": 0
+    },
+    {
+        "iso_code": "uk",
+        "code": "uk-UA",
+        "name": "Ukrainian (Ukraine)",
+        "name_native": "Українська",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ur",
+        "code": "ur-IN",
+        "name": "Urdu (India)",
+        "name_native": "اردو",
+        "text_direction": "rtl",
+        "date_format": "d/M/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ur",
+        "code": "ur-PK",
+        "name": "Urdu (Islamic Republic of Pakistan)",
+        "name_native": "اردو",
+        "text_direction": "rtl",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "ug",
+        "code": "ug-CN",
+        "name": "Uyghur (China)",
+        "name_native": "ئۇيغۇرچە",
+        "text_direction": "ltr",
+        "date_format": "yyyy-M-d",
+        "status": 0
+    },
+    {
+        "iso_code": "uz",
+        "code": "uz-Cyrl-UZ",
+        "name": "Uzbek (Cyrillic, Uzbekistan)",
+        "name_native": "Ўзбек тили",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "uz",
+        "code": "uz-Latn-UZ",
+        "name": "Uzbek (Latin, Uzbekistan)",
+        "name_native": "Oʻzbek tili",
+        "text_direction": "ltr",
+        "date_format": "dd.MM.yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "uz",
+        "code": "uz-Arab-AF",
+        "name": "Uzbek (Perso-Arabic, Afghanistan)",
+        "name_native": "ئۇزبېك تیلى",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "ca",
+        "code": "ca-ES-valencia",
+        "name": "Valencian (Spain)",
+        "name_native": "València",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "ve",
+        "code": "ve-ZA",
+        "name": "Venda (South Africa)",
+        "name_native": "Tshivenḓa",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "vi",
+        "code": "vi-VN",
+        "name": "Vietnamese (Vietnam)",
+        "name_native": "Việtnam",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "cy",
+        "code": "cy-GB",
+        "name": "Welsh (United Kingdom)",
+        "name_native": "Cymraeg",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yy",
+        "status": 0
+    },
+    {
+        "iso_code": "wo",
+        "code": "wo-SN",
+        "name": "Wolof (Senegal)",
+        "name_native": "Wollof",
+        "text_direction": "ltr",
+        "date_format": "dd/MM/yyyy",
+        "status": 0
+    },
+    {
+        "iso_code": "yo",
+        "code": "yo-BJ",
+        "name": "Yoruba (Benin)",
+        "name_native": "Èdè Yorùbá",
+        "text_direction": "ltr",
+        "date_format": "",
+        "status": 0
+    },
+    {
+        "iso_code": "yo",
+        "code": "yo-NG",
+        "name": "Yoruba (Nigeria)",
+        "name_native": "Èdè Yorùbá",
+        "text_direction": "ltr",
+        "date_format": "d/M/yyyy",
+        "status": 0
+    }
+]
