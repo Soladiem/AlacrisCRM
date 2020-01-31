@@ -16,13 +16,14 @@
                 $table->increments('id');
                 $table->char('iso_code', 2)->index();
                 $table->string('code', 10)->index();
-                $table->string('name', 40);
-                $table->string('name_native', 50);
+                $table->string('name', 60);
+                $table->string('name_native', 60);
                 $table
                     ->enum('text_direction', ['ltr', 'rtl'])
                     ->default('ltr');
                 $table->string('date_format', 10);
-                $table->boolean('status')->default(true);
+                $table->boolean('status')->default(false);
+                $table->integer('order')->nullable();
                 $table->timestamps();
             });
         }
