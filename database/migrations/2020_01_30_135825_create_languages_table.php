@@ -15,7 +15,7 @@
             Schema::create('languages', function (Blueprint $table) {
                 $table->increments('id');
                 $table->char('iso_code', 2)->index();
-                $table->string('code', 10)->index();
+                $table->string('code', 15)->index();
                 $table->string('name', 60);
                 $table->string('name_native', 60);
                 $table
