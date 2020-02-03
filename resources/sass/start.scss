@@ -58,6 +58,11 @@ body ::-moz-placeholder {
     font-weight: 300;
 }
 
+/* Google Chrome */
+body ::placeholder {
+    color: $color-text;
+}
+
 .wrapper {
     align-items: center;
     display: flex;
