@@ -21,7 +21,7 @@
                 $table
                     ->enum('text_direction', ['ltr', 'rtl'])
                     ->default('ltr');
-                $table->string('date_format', 10);
+                $table->string('date_format', 15);
                 $table->boolean('status')->default(false);
                 $table->integer('order')->nullable();
                 $table->timestamps();
