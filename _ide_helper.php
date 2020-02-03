@@ -3,7 +3,7 @@
 
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 6.12.0 on 2020-01-28 07:25:32.
+ * Generated for Laravel 6.13.1 on 2020-02-03 14:11:38.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -3731,7 +3731,7 @@ namespace Illuminate\Support\Facades {
          *
          * @param string $key
          * @param mixed $default
-         * @param string $path
+         * @param string|null $path
          * @return \Symfony\Component\HttpFoundation\Cookie 
          * @static 
          */ 
@@ -5651,6 +5651,21 @@ namespace Illuminate\Support\Facades {
         {
                         /** @var \Illuminate\Filesystem\Filesystem $instance */
                         return $instance->directories($directory);
+        }
+        
+        /**
+         * Ensure a directory exists.
+         *
+         * @param string $path
+         * @param int $mode
+         * @param bool $recursive
+         * @return void 
+         * @static 
+         */ 
+        public static function ensureDirectoryExists($path, $mode = 493, $recursive = true)
+        {
+                        /** @var \Illuminate\Filesystem\Filesystem $instance */
+                        $instance->ensureDirectoryExists($path, $mode, $recursive);
         }
         
         /**
@@ -14807,6 +14822,599 @@ namespace Illuminate\Support {
  
 }
 
+namespace Jenssegers\Agent\Facades { 
+
+    /**
+     * 
+     *
+     */ 
+    class Agent {
+        
+        /**
+         * Get all detection rules. These rules include the additional
+         * platforms and browsers and utilities.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getDetectionRulesExtended()
+        {
+                        return \Jenssegers\Agent\Agent::getDetectionRulesExtended();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRules()
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getRules();
+        }
+        
+        /**
+         * 
+         *
+         * @return \Jenssegers\Agent\CrawlerDetect 
+         * @static 
+         */ 
+        public static function getCrawlerDetect()
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getCrawlerDetect();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getBrowsers()
+        {
+                        return \Jenssegers\Agent\Agent::getBrowsers();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getOperatingSystems()
+        {
+                        return \Jenssegers\Agent\Agent::getOperatingSystems();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getPlatforms()
+        {
+                        return \Jenssegers\Agent\Agent::getPlatforms();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getDesktopDevices()
+        {
+                        return \Jenssegers\Agent\Agent::getDesktopDevices();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getProperties()
+        {
+                        return \Jenssegers\Agent\Agent::getProperties();
+        }
+        
+        /**
+         * Get accept languages.
+         *
+         * @param string $acceptLanguage
+         * @return array 
+         * @static 
+         */ 
+        public static function languages($acceptLanguage = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->languages($acceptLanguage);
+        }
+        
+        /**
+         * Get the browser name.
+         *
+         * @param string|null $userAgent
+         * @return string 
+         * @static 
+         */ 
+        public static function browser($userAgent = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->browser($userAgent);
+        }
+        
+        /**
+         * Get the platform name.
+         *
+         * @param string|null $userAgent
+         * @return string 
+         * @static 
+         */ 
+        public static function platform($userAgent = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->platform($userAgent);
+        }
+        
+        /**
+         * Get the device name.
+         *
+         * @param string|null $userAgent
+         * @return string 
+         * @static 
+         */ 
+        public static function device($userAgent = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->device($userAgent);
+        }
+        
+        /**
+         * Check if the device is a desktop computer.
+         *
+         * @param string|null $userAgent deprecated
+         * @param array $httpHeaders deprecated
+         * @return bool 
+         * @static 
+         */ 
+        public static function isDesktop($userAgent = null, $httpHeaders = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->isDesktop($userAgent, $httpHeaders);
+        }
+        
+        /**
+         * Check if the device is a mobile phone.
+         *
+         * @param string|null $userAgent deprecated
+         * @param array $httpHeaders deprecated
+         * @return bool 
+         * @static 
+         */ 
+        public static function isPhone($userAgent = null, $httpHeaders = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->isPhone($userAgent, $httpHeaders);
+        }
+        
+        /**
+         * Get the robot name.
+         *
+         * @param string|null $userAgent
+         * @return string|bool 
+         * @static 
+         */ 
+        public static function robot($userAgent = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->robot($userAgent);
+        }
+        
+        /**
+         * Check if device is a robot.
+         *
+         * @param string|null $userAgent
+         * @return bool 
+         * @static 
+         */ 
+        public static function isRobot($userAgent = null)
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->isRobot($userAgent);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function version($propertyName, $type = 'text')
+        {
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->version($propertyName, $type);
+        }
+        
+        /**
+         * Get the current script version.
+         * 
+         * This is useful for the demo.php file,
+         * so people can check on what version they are testing
+         * for mobile devices.
+         *
+         * @return string The version number in semantic version format.
+         * @static 
+         */ 
+        public static function getScriptVersion()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getScriptVersion();
+        }
+        
+        /**
+         * Set the HTTP Headers. Must be PHP-flavored. This method will reset existing headers.
+         *
+         * @param array $httpHeaders The headers to set. If null, then using PHP's _SERVER to extract
+         *                           the headers. The default null is left for backwards compatibility.
+         * @static 
+         */ 
+        public static function setHttpHeaders($httpHeaders = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->setHttpHeaders($httpHeaders);
+        }
+        
+        /**
+         * Retrieves the HTTP headers.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getHttpHeaders()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getHttpHeaders();
+        }
+        
+        /**
+         * Retrieves a particular header. If it doesn't exist, no exception/error is caused.
+         * 
+         * Simply null is returned.
+         *
+         * @param string $header The name of the header to retrieve. Can be HTTP compliant such as
+         *                       "User-Agent" or "X-Device-User-Agent" or can be php-esque with the
+         *                       all-caps, HTTP_ prefixed, underscore seperated awesomeness.
+         * @return string|null The value of the header.
+         * @static 
+         */ 
+        public static function getHttpHeader($header)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getHttpHeader($header);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getMobileHeaders()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getMobileHeaders();
+        }
+        
+        /**
+         * Get all possible HTTP headers that
+         * can contain the User-Agent string.
+         *
+         * @return array List of HTTP headers.
+         * @static 
+         */ 
+        public static function getUaHttpHeaders()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getUaHttpHeaders();
+        }
+        
+        /**
+         * Set CloudFront headers
+         * http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/header-caching.html#header-caching-web-device
+         *
+         * @param array $cfHeaders List of HTTP headers
+         * @return boolean If there were CloudFront headers to be set
+         * @static 
+         */ 
+        public static function setCfHeaders($cfHeaders = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->setCfHeaders($cfHeaders);
+        }
+        
+        /**
+         * Retrieves the cloudfront headers.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getCfHeaders()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getCfHeaders();
+        }
+        
+        /**
+         * Set the User-Agent to be used.
+         *
+         * @param string $userAgent The user agent string to set.
+         * @return string|null 
+         * @static 
+         */ 
+        public static function setUserAgent($userAgent = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->setUserAgent($userAgent);
+        }
+        
+        /**
+         * Retrieve the User-Agent.
+         *
+         * @return string|null The user agent if it's set.
+         * @static 
+         */ 
+        public static function getUserAgent()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getUserAgent();
+        }
+        
+        /**
+         * Set the detection type. Must be one of self::DETECTION_TYPE_MOBILE or
+         * self::DETECTION_TYPE_EXTENDED. Otherwise, nothing is set.
+         *
+         * @deprecated since version 2.6.9
+         * @param string $type The type. Must be a self::DETECTION_TYPE_* constant. The default
+         *                     parameter is null which will default to self::DETECTION_TYPE_MOBILE.
+         * @static 
+         */ 
+        public static function setDetectionType($type = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->setDetectionType($type);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getMatchingRegex()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getMatchingRegex();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getMatchesArray()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getMatchesArray();
+        }
+        
+        /**
+         * Retrieve the list of known phone devices.
+         *
+         * @return array List of phone devices.
+         * @static 
+         */ 
+        public static function getPhoneDevices()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getPhoneDevices();
+        }
+        
+        /**
+         * Retrieve the list of known tablet devices.
+         *
+         * @return array List of tablet devices.
+         * @static 
+         */ 
+        public static function getTabletDevices()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getTabletDevices();
+        }
+        
+        /**
+         * Alias for getBrowsers() method.
+         *
+         * @return array List of user agents.
+         * @static 
+         */ 
+        public static function getUserAgents()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getUserAgents();
+        }
+        
+        /**
+         * Retrieve the list of known utilities.
+         *
+         * @return array List of utilities.
+         * @static 
+         */ 
+        public static function getUtilities()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getUtilities();
+        }
+        
+        /**
+         * Method gets the mobile detection rules. This method is used for the magic methods $detect->is*().
+         *
+         * @deprecated since version 2.6.9
+         * @return array All the rules (but not extended).
+         * @static 
+         */ 
+        public static function getMobileDetectionRules()
+        {
+            //Method inherited from \Mobile_Detect            
+                        return \Jenssegers\Agent\Agent::getMobileDetectionRules();
+        }
+        
+        /**
+         * Method gets the mobile detection rules + utilities.
+         * 
+         * The reason this is separate is because utilities rules
+         * don't necessary imply mobile. This method is used inside
+         * the new $detect->is('stuff') method.
+         *
+         * @deprecated since version 2.6.9
+         * @return array All the rules + extended.
+         * @static 
+         */ 
+        public static function getMobileDetectionRulesExtended()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->getMobileDetectionRulesExtended();
+        }
+        
+        /**
+         * Check the HTTP headers for signs of mobile.
+         * 
+         * This is the fastest mobile check possible; it's used
+         * inside isMobile() method.
+         *
+         * @return bool 
+         * @static 
+         */ 
+        public static function checkHttpHeadersForMobile()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->checkHttpHeadersForMobile();
+        }
+        
+        /**
+         * Check if the device is mobile.
+         * 
+         * Returns true if any type of mobile device detected, including special ones
+         *
+         * @param null $userAgent deprecated
+         * @param null $httpHeaders deprecated
+         * @return bool 
+         * @static 
+         */ 
+        public static function isMobile($userAgent = null, $httpHeaders = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->isMobile($userAgent, $httpHeaders);
+        }
+        
+        /**
+         * Check if the device is a tablet.
+         * 
+         * Return true if any type of tablet device is detected.
+         *
+         * @param string $userAgent deprecated
+         * @param array $httpHeaders deprecated
+         * @return bool 
+         * @static 
+         */ 
+        public static function isTablet($userAgent = null, $httpHeaders = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->isTablet($userAgent, $httpHeaders);
+        }
+        
+        /**
+         * This method checks for a certain property in the
+         * userAgent.
+         *
+         * @todo : The httpHeaders part is not yet used.
+         * @param string $key
+         * @param string $userAgent deprecated
+         * @param string $httpHeaders deprecated
+         * @return bool|int|null 
+         * @static 
+         */ 
+        public static function is($key, $userAgent = null, $httpHeaders = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->is($key, $userAgent, $httpHeaders);
+        }
+        
+        /**
+         * Some detection rules are relative (not standard),
+         * because of the diversity of devices, vendors and
+         * their conventions in representing the User-Agent or
+         * the HTTP headers.
+         * 
+         * This method will be used to check custom regexes against
+         * the User-Agent string.
+         *
+         * @param $regex
+         * @param string $userAgent
+         * @return bool 
+         * @todo : search in the HTTP headers too.
+         * @static 
+         */ 
+        public static function match($regex, $userAgent = null)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->match($regex, $userAgent);
+        }
+        
+        /**
+         * Prepare the version number.
+         *
+         * @todo Remove the error supression from str_replace() call.
+         * @param string $ver The string version, like "2.6.21.2152";
+         * @return float 
+         * @static 
+         */ 
+        public static function prepareVersionNo($ver)
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->prepareVersionNo($ver);
+        }
+        
+        /**
+         * Retrieve the mobile grading, using self::MOBILE_GRADE_* constants.
+         *
+         * @return string One of the self::MOBILE_GRADE_* constants.
+         * @static 
+         */ 
+        public static function mobileGrade()
+        {
+            //Method inherited from \Mobile_Detect            
+                        /** @var \Jenssegers\Agent\Agent $instance */
+                        return $instance->mobileGrade();
+        }
+         
+    }
+ 
+}
+
 namespace Facade\Ignition\Facades { 
 
     /**
@@ -15066,6 +15674,403 @@ namespace Facade\Ignition\Facades {
         {
                         /** @var \Facade\FlareClient\Flare $instance */
                         return $instance->group($groupName, $properties);
+        }
+         
+    }
+ 
+}
+
+namespace Clockwork\Support\Laravel { 
+
+    /**
+     * 
+     *
+     */ 
+    class Facade {
+        
+        /**
+         * Add a new data source
+         *
+         * @static 
+         */ 
+        public static function addDataSource($dataSource)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addDataSource($dataSource);
+        }
+        
+        /**
+         * Return array of all added data sources
+         *
+         * @static 
+         */ 
+        public static function getDataSources()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getDataSources();
+        }
+        
+        /**
+         * Return the request object
+         *
+         * @static 
+         */ 
+        public static function getRequest()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getRequest();
+        }
+        
+        /**
+         * Set a custom request object
+         *
+         * @static 
+         */ 
+        public static function setRequest($request)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->setRequest($request);
+        }
+        
+        /**
+         * Add data from all data sources to request
+         *
+         * @static 
+         */ 
+        public static function resolveRequest()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->resolveRequest();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function extendRequest($request = null)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->extendRequest($request);
+        }
+        
+        /**
+         * Store request via storage object
+         *
+         * @static 
+         */ 
+        public static function storeRequest()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->storeRequest();
+        }
+        
+        /**
+         * Return the storage object
+         *
+         * @static 
+         */ 
+        public static function getStorage()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getStorage();
+        }
+        
+        /**
+         * Set a custom storage object
+         *
+         * @static 
+         */ 
+        public static function setStorage($storage)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->setStorage($storage);
+        }
+        
+        /**
+         * Return the authenticator object
+         *
+         * @static 
+         */ 
+        public static function getAuthenticator()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getAuthenticator();
+        }
+        
+        /**
+         * Set a custom authenticator object
+         *
+         * @static 
+         */ 
+        public static function setAuthenticator($authenticator)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->setAuthenticator($authenticator);
+        }
+        
+        /**
+         * Return the log instance
+         *
+         * @static 
+         */ 
+        public static function getLog()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getLog();
+        }
+        
+        /**
+         * Set a custom log instance
+         *
+         * @static 
+         */ 
+        public static function setLog($log)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->setLog($log);
+        }
+        
+        /**
+         * Return the timeline instance
+         *
+         * @static 
+         */ 
+        public static function getTimeline()
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->getTimeline();
+        }
+        
+        /**
+         * Set a custom timeline instance
+         *
+         * @static 
+         */ 
+        public static function setTimeline($timeline)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->setTimeline($timeline);
+        }
+        
+        /**
+         * Shortcut methods for the current log instance
+         *
+         * @static 
+         */ 
+        public static function log($level, $message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->log($level, $message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function emergency($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->emergency($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function alert($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->alert($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function critical($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->critical($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function error($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->error($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function warning($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->warning($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function notice($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->notice($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function info($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->info($message, $context);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function debug($message, $context = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->debug($message, $context);
+        }
+        
+        /**
+         * Shortcut methods for the current timeline instance
+         *
+         * @static 
+         */ 
+        public static function startEvent($name, $description, $time = null)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->startEvent($name, $description, $time);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function endEvent($name)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->endEvent($name);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addDatabaseQuery($query, $bindings = [], $duration = null, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addDatabaseQuery($query, $bindings, $duration, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addCacheQuery($type, $key, $value = null, $duration = null, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addCacheQuery($type, $key, $value, $duration, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addEvent($event, $eventData = null, $time = null, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addEvent($event, $eventData, $time, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addRoute($method, $uri, $action, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addRoute($method, $uri, $action, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addEmail($subject, $to, $from = null, $headers = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addEmail($subject, $to, $from, $headers);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addView($name, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addView($name, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addSubrequest($url, $id, $data = [])
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->addSubrequest($url, $id, $data);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function subrequest($url, $id, $path = null)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->subrequest($url, $id, $path);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function userData($key = null)
+        {
+                        /** @var \Clockwork\Clockwork $instance */
+                        return $instance->userData($key);
         }
          
     }
@@ -16093,7 +17098,7 @@ namespace  {
             /**
              * Paginate the given query.
              *
-             * @param int $perPage
+             * @param int|null $perPage
              * @param array $columns
              * @param string $pageName
              * @param int|null $page
@@ -16110,7 +17115,7 @@ namespace  {
             /**
              * Paginate the given query into a simple paginator.
              *
-             * @param int $perPage
+             * @param int|null $perPage
              * @param array $columns
              * @param string $pageName
              * @param int|null $page
@@ -16399,8 +17404,8 @@ namespace  {
              *
              * @param callable $callback
              * @param int $count
-             * @param string $column
-             * @param string $alias
+             * @param string|null $column
+             * @param string|null $alias
              * @return bool 
              * @static 
              */ 
@@ -18546,7 +19551,11 @@ namespace  {
 
     class View extends \Illuminate\Support\Facades\View {}
 
+    class Agent extends \Jenssegers\Agent\Facades\Agent {}
+
     class Flare extends \Facade\Ignition\Facades\Flare {}
+
+    class Clockwork extends \Clockwork\Support\Laravel\Facade {}
 
     class Module extends \Nwidart\Modules\Facades\Module {}
  
