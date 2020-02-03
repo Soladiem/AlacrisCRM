@@ -24,6 +24,28 @@
       0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
     ),
   ),
+  'itsgoingd/clockwork' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Clockwork\\Support\\Laravel\\ClockworkServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Clockwork' => 'Clockwork\\Support\\Laravel\\Facade',
+    ),
+  ),
+  'jenssegers/agent' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Jenssegers\\Agent\\AgentServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Agent' => 'Jenssegers\\Agent\\Facades\\Agent',
+    ),
+  ),
   'laravel/tinker' => 
   array (
     'providers' => 
