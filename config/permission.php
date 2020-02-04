@@ -105,7 +105,7 @@ return [
          * The cache key used to store all permissions.
          */
 
-        'key' => 'spatie.permission.cache',
+        'key' => 'alacris.permission.cache',
 
         /*
          * When checking for a permission against a model by passing a Permission
