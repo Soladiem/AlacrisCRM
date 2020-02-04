@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
+        "cviebrock/eloquent-sluggable": "^6.0",
         "fideloper/proxy": "^4.0",
         "itsgoingd/clockwork": "^4.0",
         "jenssegers/agent": "^2.6",
