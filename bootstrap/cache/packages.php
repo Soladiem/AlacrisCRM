@@ -92,4 +92,11 @@
       'Module' => 'Nwidart\\Modules\\Facades\\Module',
     ),
   ),
+  'spatie/laravel-permission' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Permission\\PermissionServiceProvider',
+    ),
+  ),
 );
