@@ -11,10 +11,28 @@
 |
 */
 
+use App\Http\Middleware\LocaleMiddleware;
+
 Route::get('/', function () {
-    return view('start');
+    return redirect(
+        '/' .
+        config('app.locale') ?? config('app.fallback_locale')
+    );
 });
 
-Auth::routes();
+Route::group(['prefix' => LocaleMiddleware::getLocale()], function () {
 
-Route::get('/home', 'HomeController@index')->name('home');
+    /**
+     * Default page
+     */
+    Route::get('/', function (){
+        return view('start');
+    });
+
+    /**
+     * Authentification
+     */
+    Auth::routes();
+});
+
+
