@@ -25,14 +25,16 @@ Route::group(['prefix' => LocaleMiddleware::getLocale()], function () {
     /**
      * Default page
      */
-    Route::get('/', function (){
+    Route::get('/', function () {
         return view('start');
     });
 
     /**
      * Authentification
      */
-    Auth::routes();
+    Auth::routes([
+        'register' => false,
+    ]);
 });
 
 
