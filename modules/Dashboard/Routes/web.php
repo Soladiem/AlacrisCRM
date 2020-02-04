@@ -11,6 +11,12 @@
 |
 */
 
-Route::prefix('dashboard')->group(function() {
-    Route::get('/', 'DashboardController@index');
+use App\Http\Middleware\LocaleMiddleware;
+
+Route::group(['prefix' => LocaleMiddleware::getLocale()], function () {
+
+    Route::prefix('dashboard')->group(function() {
+        Route::get('/', 'DashboardController@index');
+    });
+
 });

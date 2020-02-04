@@ -35,6 +35,7 @@ Route::group(['prefix' => LocaleMiddleware::getLocale()], function () {
     Auth::routes([
         'register' => false,
     ]);
+
 });
 
 
