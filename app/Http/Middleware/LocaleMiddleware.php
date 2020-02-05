@@ -2,25 +2,18 @@
 
 namespace App\Http\Middleware;
 
-use Agent;
+use App;
+use App\Exceptions\UnsupportedLocaleException;
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Str;
 
 class LocaleMiddleware
 {
     /**
-     * Default locale
-     * @var string
-     */
-    private static $defaultLocale;
-
-    /**
-     * Cookie name for store locale
-     * @var string
-     */
-    private static $nameCookieLocale;
-
-    /**
      * Cache active languages
+     *
      * @var string
      */
     private static $cache;
@@ -32,7 +25,7 @@ class LocaleMiddleware
      */
     public static function setCache(string $data): void
     {
-        self::$cache = $data;
+        static::$cache = $data;
     }
 
     /**
@@ -42,14 +35,12 @@ class LocaleMiddleware
      */
     public static function getLocale(): string
     {
+        // Return Language from URI
         if (static::containsLanguageUri()) {
-            if (in_array(request()->segment(1), static::getSupportedLocales())) {
-                return request()->segment(1); // Return Language from URI
-            }
+            return request()->segment(1);
         }
 
-        // Return Language from Cookie
-        if ($lang = request()->cookies->get(static::$nameCookieLocale)) {
+        if ($lang = request()->cookies->get(config('language.cookie_locale_name'))) {
             return $lang;
         }
 
@@ -79,22 +70,106 @@ class LocaleMiddleware
     /**
      * Handle Middleware
      *
-     * @param         $request
+     * @param Request $request
      * @param Closure $next
      * @return mixed
+     * @throws UnsupportedLocaleException
      */
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next)
     {
+        if (!in_array(config('language.default_locale'), static::getSupportedLocales())) {
+            throw new UnsupportedLocaleException('Invalid default locale used.');
+        }
+
+        // If the route does contain language
+        if (static::containsLanguageUri()) {
+            $this->setLocale($request->segment(1));
+
+            // Save cookie with current locale (only guest)
+            if (!auth()->check()) {
+                cookie()->queue(
+                    config('language.cookie_locale_name'),
+                    $request->segment(1)
+                );
+
+            } else {
+                $this->setUserLocale();
+            }
+
+        } else {
+
+            $routeExists = false;
+            $routeCollection = collect(Route::getRoutes()->getRoutes())->pluck('uri');
+            $uri = request()->segments();
+
+            $requestUri = empty($uri)
+                ? static::getLocale()
+                : static::getLocale() . '/' . implode('/', $uri);
+
+            foreach ($routeCollection as $route) {
+                if ($this->compareLocale($route, $requestUri)) {
+                    $routeExists = true;
+                    break;
+                }
+            }
+
+            // Redirect only for exists routes
+            if ($routeExists) {
+                Route::redirect(request()->getPathInfo(), '/' . $requestUri);
+            }
+        }
+
         return $next($request);
+    }
+
+    /**
+     * Set Locale
+     *
+     * @param $locale
+     */
+    private function setLocale($locale): void
+    {
+        if (!in_array($locale, static::getSupportedLocales())) {
+            $locale = config('language.default_locale');
+        }
+
+        // Set App Language
+        App::setLocale($locale);
+    }
+
+    private function setUserLocale(): void
+    {
+        $user = auth()->user();
+
+        if (request()->hasCookie(config('language.cookie_locale_name'))) {
+            $lang = request()->cookies->get(config('language.cookie_locale_name'));
+            App::setLocale($lang);
+        } else {
+            if ($user->locale) {
+                $this->setLocale($user->locale);
+            } else {
+                $this->setDefaultLocale();
+            }
+        }
+    }
+
+    private function setDefaultLocale(): void
+    {
+        if (config('language.browser_locale')) {
+            $this->setLocale($this->getBrowserLanguage());
+        } else {
+            $this->setLocale(config('language.default_locale'));
+        }
     }
 
     private static function getBrowserLanguage(): string
     {
-        $uAgentLanguages = Agent::languages();
-        if (isset($uAgentLanguages[0])) {
-            return htmlspecialchars($uAgentLanguages[0]);
+        $browserLocales = request()->getLanguages();
+        if (isset($browserLocales[0])) {
+            return Str::kebab(Str::camel(strtolower($browserLocales[0])));
         }
-        return static::$defaultLocale ?? strtolower(config('app.locale'));
+
+        return config('language.default_locale');
     }
 
     private static function containsLanguageUri(): bool
@@ -103,5 +178,10 @@ class LocaleMiddleware
             return true;
         }
         return false;
+    }
+
+    private function compareLocale($string1, $string2): bool
+    {
+        return (strcmp($string1, $string2) == 0);
     }
 }
