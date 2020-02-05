@@ -167,7 +167,6 @@ return [
          */
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        Jenssegers\Agent\AgentServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
 
         /*
@@ -233,7 +232,6 @@ return [
         /*
          * Custom aliases...
          */
-        'Agent' => Jenssegers\Agent\Facades\Agent::class,
         'Clockwork' => Clockwork\Support\Laravel\Facade::class,
 
     ],
