@@ -13,13 +13,6 @@
 
 use App\Http\Middleware\LocaleMiddleware;
 
-Route::get('/', function () {
-    return redirect(
-        '/' .
-        config('app.locale') ?? config('app.fallback_locale')
-    );
-});
-
 Route::group(['prefix' => LocaleMiddleware::getLocale()], function () {
 
     /**
