@@ -7,6 +7,7 @@ use App\Exceptions\UnsupportedLocaleException;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Redirect;
 use Str;
 
 class LocaleMiddleware
@@ -115,7 +116,7 @@ class LocaleMiddleware
 
             // Redirect only for exists routes
             if ($routeExists) {
-                Route::redirect(request()->getPathInfo(), '/' . $requestUri);
+                return Redirect::to('/' . $requestUri);
             }
         }
 
