@@ -39,6 +39,16 @@ body :-ms-input-placeholder {
 
 /* Mozilla Firefox 4 to 18 and Mozilla Firefox 19+ */
 
+body :-moz-placeholder,
+body ::-moz-placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  opacity: 1;
+  font-weight: 300;
+}
+
+/* Google Chrome */
+
 body ::-webkit-input-placeholder {
   color: #fff;
 }

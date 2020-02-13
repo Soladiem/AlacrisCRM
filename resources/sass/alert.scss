@@ -1,0 +1,27 @@
+.alert {
+	background-image: none;
+
+	&.alert-primary {
+		@include alert-variant($color-primary, $color-primary, #fff);
+	}
+
+	&.alert-success {
+		@include alert-variant($color-success, $color-success, #fff);
+	}
+
+	&.alert-info {
+		@include alert-variant($color-info, $color-info, #fff);
+	}
+
+	&.alert-warning {
+		@include alert-variant($color-warning, $color-warning, #fff);
+	}
+
+	&.alert-danger {
+		@include alert-variant($color-danger, $color-danger, #fff);
+	}
+
+	&.alert-inverse {
+		@include alert-variant($color-inverse, $color-inverse, #fff);
+	}
+}
