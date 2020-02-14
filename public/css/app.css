@@ -18249,6 +18249,10 @@ a.text-dark:focus {
   text-decoration: none;
 }
 
+.header .header-block-nav a:hover {
+  text-decoration: none;
+}
+
 .header .header-block-nav ul {
   margin: 0;
   padding: 0;
