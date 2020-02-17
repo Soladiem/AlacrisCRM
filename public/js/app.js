@@ -50370,7 +50370,17 @@ files.keys().map(function (key) {
  */
 
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  data: function data() {
+    return {
+      isSidebarOpen: false
+    };
+  },
+  methods: {
+    sidebarPanel: function sidebarPanel(e) {
+      this.isSidebarOpen = !this.isSidebarOpen;
+    }
+  }
 });
 
 /***/ }),
