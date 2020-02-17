@@ -15,8 +15,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="main-wrapper">
-    <div class="app" id="app">
+<div id="app" class="main-wrapper">
+    <div class="app"
+         :class="{ 'sidebar-open': isSidebarOpen }">
         @include('layouts._particles.header')
         @include('layouts._particles.sidebar')
 
@@ -27,5 +28,6 @@
         @include('layouts._particles.footer')
     </div>
 </div>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

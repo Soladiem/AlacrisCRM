@@ -1,7 +1,7 @@
 <footer class="sidebar-footer">
     <ul class="sidebar-menu metismenu" id="customize-menu">
         <li>
-            <ul>
+            <ul class="collapse">
                 <li class="customize">
                     <div class="customize-item">
                         <div class="row customize-header">

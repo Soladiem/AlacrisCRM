@@ -16,6 +16,7 @@
     </div>
     @include('layouts._particles.sidebar-footer')
 </aside>
-<div class="sidebar-overlay" id="sidebar-overlay"></div>
+<div class="sidebar-overlay"
+     id="sidebar-overlay" @click="sidebarPanel"></div>
 <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
 <div class="mobile-menu-handle"></div>
