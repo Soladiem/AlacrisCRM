@@ -8,6 +8,7 @@ class LanguagesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
+     *
      * @throws FileNotFoundException
      */
     public function run()
