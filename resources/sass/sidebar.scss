@@ -9,7 +9,6 @@
     transition: left 0.3s ease;
     z-index: 20;
 
-
     @include media-down(md) {
         position: fixed;
         left: -$sidebar-width;
@@ -119,8 +118,14 @@
             height: 0;
             overflow: hidden;
 
-            .loaded & {
+            body & {
                 height: auto;
+            }
+
+            &.collapse {
+                &.in {
+                    display: block;
+                }
             }
         }
 
@@ -164,7 +169,6 @@
                 transform: rotate(90deg);
             }
         }
-
 
         // First level items
         & > li {

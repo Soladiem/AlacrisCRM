@@ -18632,8 +18632,12 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
-.loaded .sidebar .sidebar-menu ul {
+body .sidebar .sidebar-menu ul {
   height: auto;
+}
+
+.sidebar .sidebar-menu ul.collapse.in {
+  display: block;
 }
 
 .sidebar .sidebar-menu li.active ul {
