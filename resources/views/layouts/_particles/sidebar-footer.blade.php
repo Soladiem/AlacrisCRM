@@ -1,5 +1,5 @@
 <footer class="sidebar-footer">
-    <ul class="sidebar-menu metismenu" id="customize-menu">
+{{--    <ul class="sidebar-menu metismenu" id="customize-menu">
         <li>
             <ul class="collapse">
                 <li class="customize">
@@ -124,5 +124,5 @@
                 <i class="fa fa-cog"></i> Customize
             </a>
         </li>
-    </ul>
+    </ul>--}}
 </footer>
