@@ -17,7 +17,8 @@ window.Vue = require('vue');
  */
 
 const files = require.context('./', true, /\.vue$/i);
-files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+files.keys().map(key =>
+    Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -27,14 +28,14 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 
 const app = new Vue({
     el: '#app',
-    data: function () {
+    data() {
         return {
             isSidebarOpen: false,
         }
     },
     methods: {
-        sidebarPanel: function (e) {
+        sidebarPanel() {
             this.isSidebarOpen = !this.isSidebarOpen;
-        }
+        },
     }
 });
