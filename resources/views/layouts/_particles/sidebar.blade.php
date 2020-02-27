@@ -12,7 +12,9 @@
                 {{ config('app.name') }}
             </div>
         </div>
-        <sidebar-menu></sidebar-menu>
+        <nav class="menu">
+            <sidebar-menu></sidebar-menu>
+        </nav>
     </div>
     @include('layouts._particles.sidebar-footer')
 </aside>
