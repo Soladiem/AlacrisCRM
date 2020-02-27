@@ -1,6 +1,8 @@
 <template>
     <ul class="sidebar-menu">
-        <li v-for="(item, index) in navigation" :key="'item'+index">
+        <li v-for="(item, index) in navigation"
+            :key="'item'+index"
+            :class="{ open: item.open }">
             <a :href="item.href" @click="item.open=!item.open">
                 <i v-if="item.icon"
                    :class="[{'fa': true}, item.icon ? 'fa-' + item.icon : '']">

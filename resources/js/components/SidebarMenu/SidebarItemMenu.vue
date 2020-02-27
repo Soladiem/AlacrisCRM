@@ -1,6 +1,8 @@
 <template>
     <ul class="sidebar-nav collapse" :class="{ in: open }">
-        <li v-for="(item, index) in list.children" :key="'item'+index">
+        <li v-for="(item, index) in list.children"
+            :key="'item'+index"
+            :class="{ open: item.open }">
             <a :href="item.href" @click="item.open=!item.open">
                 <i v-if="item.icon"
                    :class="[{'fa': true}, item.icon ? 'fa-' + item.icon : '']">
