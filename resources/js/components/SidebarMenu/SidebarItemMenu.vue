@@ -1,16 +1,16 @@
 <template>
-    <ul class="sidebar-nav collapse" :class="{ in: isCollapsed }">
-        <li v-for="item in menu" :class="{ open: isCollapsed }">
-            <a :href="item.href">
-                <i :class="'fa ' + item.icon"
-                   v-if="item.icon">
-                </i> {{ item.title }}
-                <i class="fa arrow" v-if="item.child && item.child.length"></i>
+    <ul class="sidebar-nav collapse" :class="{ in: open }">
+        <li v-for="(item, index) in list.children" :key="'item'+index">
+            <a :href="item.href" @click="item.open=!item.open">
+                <i v-if="item.icon"
+                   :class="[{'fa': true}, item.icon ? 'fa-' + item.icon : '']">
+                </i>
+                {{ item.title }}
+                <i class="fa arrow" v-if="item.children"></i>
             </a>
-            <sidebar-item-menu
-                v-if="item.child && item.child.length"
-                :menu="item.child"
-            />
+            <sidebar-item-menu v-if="item.children"
+                               :list="item"
+                               :open="item.open"/>
         </li>
     </ul>
 </template>
@@ -18,18 +18,13 @@
 <script>
     export default {
         props: {
-            menu: {
-                type: Array,
-                required: true
+            list: {
+                type: Object,
+                required: true,
             },
-            collapsed: {
+            open: {
                 type: Boolean,
-                default: false
-            }
-        },
-        data() {
-            return {
-                isCollapsed: this.collapsed,
+                default: false,
             }
         },
     }
