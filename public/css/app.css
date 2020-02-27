@@ -18614,6 +18614,112 @@ a.text-dark:focus {
   left: 34px;
 }
 
+.sidebar .sidebar-menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .sidebar-menu li {
+  cursor: pointer;
+}
+
+.sidebar .sidebar-menu li a:focus,
+.open .sidebar .sidebar-menu li a:focus {
+  background-color: inherit;
+}
+
+.sidebar .sidebar-menu ul {
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+body .sidebar .sidebar-menu ul {
+  height: auto;
+}
+
+.sidebar .sidebar-menu ul.collapse.in {
+  display: block;
+}
+
+.sidebar .sidebar-menu li.active ul {
+  height: auto;
+}
+
+.sidebar .sidebar-menu li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar .sidebar-menu li a:hover,
+.sidebar .sidebar-menu li.open > a,
+.sidebar .sidebar-menu li.open a:hover {
+  color: #ffffff;
+  background-color: #2d363f;
+}
+
+.sidebar .sidebar-menu .arrow {
+  float: right;
+  font-size: 18px;
+  line-height: initial;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-right: 0;
+}
+
+.sidebar .sidebar-menu .arrow:before {
+  content: "\F105" !important;
+}
+
+.sidebar .sidebar-menu li.open > a .arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.sidebar .sidebar-menu > li > a {
+  padding: 15px 15px 15px 20px;
+}
+
+.sidebar .sidebar-menu > li.active > a,
+.sidebar .sidebar-menu > li.active > a:hover {
+  background-color: #85CE36 !important;
+  color: #ffffff !important;
+}
+
+.sidebar .sidebar-menu > li.open > a {
+  background-color: #333e48;
+}
+
+.sidebar .sidebar-menu > li > a i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.sidebar .sidebar-menu > li > a i.arrow {
+  font-size: 20px;
+}
+
+.sidebar .sidebar-menu > li > .sidebar-nav > li a {
+  padding: 10px 15px 10px 50px;
+  background-color: #333e48;
+}
+
+.sidebar .sidebar-menu > li > .sidebar-nav > li.active a {
+  color: #ffffff;
+}
+
+.sidebar .sidebar-menu > li > .sidebar-nav > li > .sidebar-nav > li a {
+  padding-left: 60px;
+  padding-right: 15px;
+}
+
+.sidebar .sidebar-menu > li > .sidebar-nav > li > .sidebar-nav > li > .sidebar-nav > li a {
+  padding-left: 70px;
+}
+
 .sidebar-overlay {
   position: absolute;
   display: none;
