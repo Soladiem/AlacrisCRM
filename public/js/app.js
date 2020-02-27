@@ -1995,6 +1995,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     list: {
@@ -2022,6 +2024,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "store", function() { return store; });
 /* harmony import */ var _SidebarItemMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SidebarItemMenu */ "./resources/js/components/SidebarMenu/SidebarItemMenu.vue");
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+//
+//
 //
 //
 //
@@ -38303,7 +38307,7 @@ var render = function() {
     _vm._l(_vm.list.children, function(item, index) {
       return _c(
         "li",
-        { key: "item" + index },
+        { key: "item" + index, class: { open: item.open } },
         [
           _c(
             "a",
@@ -38366,7 +38370,7 @@ var render = function() {
     _vm._l(_vm.navigation, function(item, index) {
       return _c(
         "li",
-        { key: "item" + index },
+        { key: "item" + index, class: { open: item.open } },
         [
           _c(
             "a",
